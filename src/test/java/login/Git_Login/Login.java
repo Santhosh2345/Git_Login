@@ -112,7 +112,7 @@ public class Login {
 		
 		 try{
 
-			    FileWriter fw = new FileWriter("F:\\RsoftNew\\Git_Login\\src\\test\\java\\login\\Git_Login\\Loginandlogout.txt", false);
+			    FileWriter fw = new FileWriter("F:\\RsoftNew\\Git_Login\\Loginandlogout.txt", false);
 
 			    PrintWriter pw = new PrintWriter(fw, false);
 
@@ -239,7 +239,7 @@ public class Login {
 	 
 	  try {
 		  
-		  FileInputStream fis = new FileInputStream("F:\\RsoftNew\\Git_Login\\src\\test\\java\\login\\Git_Login\\config.properties");
+		  FileInputStream fis = new FileInputStream("F:\\RsoftNew\\Git_Login\\config.properties");
 		  prop.load(fis);
 	  }
 	  catch(IOException e) {
